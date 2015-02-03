@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZYTools"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short desfdasfdsacription of ZYTools."
 
   s.description  = <<-DESC
@@ -34,17 +34,17 @@ Pod::Spec.new do |s|
 
 
 
-s.source       = { :git => "https://github.com/zhiyu330691038/ZYTools.git" , :tag => "0.0.3"}
+s.source       = { :git => "https://github.com/zhiyu330691038/ZYTools.git" , :tag => s.version}
 
-  s.source_files  = "Classes/**/*.{h,m,swift}"
+  s.source_files  = "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "**/*.h"
 
 
   s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.ios.vendored_frameworks = 'Frameworks/TestSwift.framework'
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
