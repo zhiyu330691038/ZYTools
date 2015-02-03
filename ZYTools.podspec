@@ -64,7 +64,7 @@ s.platform     = :ios, "6.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhiyu330691038/ZYTools.git", :tag => "0.0.1" }
+  s.source       = { :path => "/Users/zky/Desktop/ZKUnity", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
