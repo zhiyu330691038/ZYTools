@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Test : NSObject
+@interface Test : NSString
 
 @end
