@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ZYTools"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZYTools."
+  s.summary      = "A short desfdasfdsacription of ZYTools."
 
   s.description  = <<-DESC
                    A longer description of ZYTools in Markdown format.
@@ -64,7 +64,7 @@ s.platform     = :ios, "6.0"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :path => "/Users/zky/Desktop/ZKUnity", :tag => "0.0.1" }
+  s.source       = { :git => "/Users/zky/Desktop/Tools", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
