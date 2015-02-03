@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZYTools"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short desfdasfdsacription of ZYTools."
 
   s.description  = <<-DESC
@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
 
 
 
-s.source       = { :git => "https://github.com/zhiyu330691038/ZYTools.git" , :tag => "0.0.2"}
+s.source       = { :git => "https://github.com/zhiyu330691038/ZYTools.git" , :tag => "0.0.3"}
 
-  s.source_files  = "Classes/**/*.{h,m}"
+  s.source_files  = "Classes/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "**/*.h"

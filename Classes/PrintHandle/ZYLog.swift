@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Zhi Kuiyu. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
-struct ColorLog {
+struct ZYLog {
     static let ESCAPE = "\u{001b}["
     
     static let RESET_FG = ESCAPE + "fg;" // Clear any foreground color
