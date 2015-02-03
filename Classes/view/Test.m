@@ -12,7 +12,7 @@
 
 - (id)init{
     if(self = [super init]){
-        NSLog(@"-fdsafdsaf--fdsafdsfafdsafdsfdsfsadfasd发生的范德萨发生") ;
+        NSLog(@"-fdsafdsa发生的范德萨发生") ;
 
 
     }
