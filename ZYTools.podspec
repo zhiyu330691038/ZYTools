@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
 
 
-s.source       = { :git => "/Users/zky/Desktop/ZYTools" , :tag => "1.0.1"}
+s.source       = { :git => "~/Desktop/ZYTools" , :tag => "1.0.1"}
 
   s.source_files  = "**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
