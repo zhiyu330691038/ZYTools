@@ -12,7 +12,8 @@
 
 - (id)init{
     if(self = [super init]){
-    
+        NSLog(@"-fdsafdsaf---") ;
+
     }
     return self ;
 }
